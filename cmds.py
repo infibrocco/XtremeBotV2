@@ -438,8 +438,8 @@ def registerCommands(client, slash, guild_ids):
         for people in members:
             if people.bot:
                 bot_count += 1
-        else:
-            pass
+            
+        pass
 
         embed = discord.Embed(
             title=f'{ctx.guild.name} info',
