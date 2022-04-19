@@ -400,7 +400,7 @@ def registerCommands(client, slash, guild_ids):
 
             embed = discord.Embed(
                 title=f'Search for {member}\nFound multiple results (Max 10)',
-                description=f'\n'.join(multiple_member_array_duplicate_array),
+                description='\n'.join(multiple_member_array_duplicate_array),
                 colour=0x808080
             )
             await ctx.send(embed=embed)
